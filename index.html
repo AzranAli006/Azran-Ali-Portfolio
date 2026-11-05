@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Azran Ali | Portfolio</title>
+    <meta
+      name="description"
+      content="Personal portfolio of Azran Ali, aspiring software developer skilled in Python, HTML, SQL and Excel."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <a href="#home" class="logo">Azran<span>.</span></a>
+      <nav>
+        <ul id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav-actions">
+        <button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+        <button id="menu-toggle" aria-label="Toggle menu">☰</button>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="hero-text reveal">
+        <p class="greeting">Hello, I'm</p>
+        <h1>Azran Ali</h1>
+        <h2>I am a <span id="typing"></span><span class="cursor">|</span></h2>
+        <p class="hero-desc">
+          Aspiring software developer with hands-on experience in AI, machine
+          learning and web development. I enjoy solving problems with code and
+          learning new technologies like Python, HTML, CSS, JavaScript, and SQL
+          through practical projects
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary">View My Work</a>
+          <a href="RESUME/AZRAN_ALI_RESUME.pdf" class="btn outline" download
+            >Download Resume</a
+          >
+        </div>
+        <div class="socials">
+          <a
+            href=https://github.com/AzranAli006
+            target="_blank"
+            rel="noopener"
+            >GitHub</a
+          >
+
+          <a
+            href="https://www.linkedin.com/in/azran-ali-b45949376/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
+        </div>
+      </div>
+      <div class="hero-img reveal">
+        <!-- Save your photo as images/profile.jpg -->
+        <img
+          src="image/profile.jpg"
+          alt="Azran Ali"
+          onerror="this.src = 'https://placehold.co/400x400?text=Azran+Ali'"
+        />
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <h2 class="section-title reveal">About Me</h2>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            I'm Azran Ali, a motivated and curious learner who is passionate
+            about becoming a software developer. I have completed internships in
+            AI &amp; ML and AI Web Development, where I worked on real,
+            practical projects.
+          </p>
+          <p>
+            I am strong at problem-solving and pick up new tools fast. I'm
+            currently looking for opportunities where I can apply my Python, web
+            and data skills and keep growing as a developer.
+          </p>
+          <ul class="details">
+            <li><strong>Name:</strong> Azran Ali</li>
+            <li>
+              <strong>Interest:</strong> Software Development, AI &amp; ML
+            </li>
+            <li><strong>Email:</strong> azranali53@gmail.com</li>
+            <li><strong>Phone:</strong> +91 8015723360</li>
+            <li>
+              <strong>Location:</strong> Ramanathapuram, Tamil Nadu, India
+            </li>
+          </ul>
+          <div class="stats">
+            <div>
+              <h3 data-count="2">0</h3>
+              <p>Internships</p>
+            </div>
+            <div>
+              <h3 data-count="2">0</h3>
+              <p>Certifications</p>
+            </div>
+            <div>
+              <h3 data-count="1">0</h3>
+              <p>Group Project</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section alt">
+      <h2 class="section-title reveal">My Skills</h2>
+      <div class="skills-columns">
+        <div class="reveal">
+          <h3 class="skills-heading">Technical Skills</h3>
+          <div class="chips">
+            <span>Python</span>
+            <span>HTML</span>
+            <span>SQL</span>
+            <span>Excel</span>
+          </div>
+        </div>
+
+        <div class="reveal">
+          <h3 class="skills-heading">Soft Skills</h3>
+          <div class="chips">
+            <span>Problem-Solving</span>
+            <span>Quick Learner</span>
+            <span>Teamwork</span>
+            <span>Communication</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE & CERTIFICATIONS -->
+    <section id="experience" class="section">
+      <h2 class="section-title reveal">Experience &amp; Certifications</h2>
+      <div class="timeline">
+        <div class="t-item reveal">
+          <span class="t-type">Internship</span>
+          <h3>AI &amp; ML Intern</h3>
+          <p class="t-org">Samcore Solution</p>
+          <p>
+            Worked on artificial intelligence and machine learning tasks,
+            gaining practical experience with real-world data and models.
+          </p>
+        </div>
+        <div class="t-item reveal">
+          <span class="t-type">Internship</span>
+          <h3>AI Web Development Intern</h3>
+          <p class="t-org">Internshala</p>
+          <p>
+            Built web applications that combine AI with web development,
+            strengthening my front-end and problem-solving skills.
+          </p>
+        </div>
+        <div class="t-item reveal">
+          <span class="t-type cert">Certification</span>
+          <h3>Python Fundamentals</h3>
+          <p>
+            Completed certification covering the core concepts of Python
+            programming.
+          </p>
+        </div>
+        <div class="t-item reveal">
+          <span class="t-type cert">Certification</span>
+          <h3>Artificial Intelligence</h3>
+          <p>
+            Completed certification covering the fundamentals of artificial
+            intelligence.
+          </p>
+        </div>
+        <div class="t-item reveal">
+          <span class="t-type cert">Certification</span>
+          <h3>Python Data Structures and Algorithms</h3>
+          <p>
+            Completed certification covering the fundamentals of Python Data
+            Structures and Algorithms, including problem-solving techniques and
+            coding concepts.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section alt">
+      <h2 class="section-title reveal">My Projects</h2>
+      <div class="cards single">
+        <article class="card reveal">
+          <!-- Add a screenshot as images/project1.jpg -->
+          <img
+            src="images/government-scheme-finder.jpeg"
+            alt="Government Scheme Finder"
+            onerror="
+              this.src =
+                'https://placehold.co/600x380?text=Government+Scheme+Finder'
+            "
+          />
+
+          <div class="card-body">
+            <h3>Government Scheme Finder</h3>
+
+            <p>
+              A web application that helps users search demonstration government
+              scheme records using state, age, income, and category filters.
+            </p>
+
+            <div class="tags">
+              <span>Python</span>
+              <span>Flask</span>
+              <span>HTML & CSS</span>
+              <span>SQLite</span>
+              <span>Group Project</span>
+            </div>
+
+            <div class="card-links">
+              <a
+                href="https://govt-scheme-finder-bfql.onrender.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Live Demo
+              </a>
+
+              <a
+                href="https://github.com/AzranAli006/govt_scheme_finder"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Source Code</a
+              >
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <h2 class="section-title reveal">Contact Me</h2>
+      <div class="contact-wrap reveal">
+        <form id="contact-form">
+          <input type="text" id="name" placeholder="Your Name" required />
+          <input type="email" id="email" placeholder="Your Email" required />
+          <textarea
+            id="message"
+            rows="5"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <button type="submit" class="btn primary">Send Message</button>
+          <p id="form-status"></p>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <p>© <span id="year"></span> Azran Ali. All rights reserved.</p>
+    </footer>
+
+    <button id="to-top" aria-label="Back to top">↑</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
